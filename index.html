@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freelancer portfolio</title>
+    <title>Горбик Лідія</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <nav class="nav">
         <div class="container">
             <div class="nav-row">
-                <a href="./index.html" class="logo"><strong>Freelancer</strong> portfolio</a>
+                <a href="./index.html" class="logo"><strong>Горбик</strong> Лідія</a>
 
                 <button class="dark-mode-btn">
                     <img src="./img/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
@@ -19,9 +19,10 @@
                 </button>
 
                 <ul class="nav-list">
-                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active">Projects</a></li>
-                    <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Skills</a></li>
-                    <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Contacts</a></li>
+                    <li class="nav-list__item"><a href="#education" class="nav-list__link nav-list__link--active">Освіта</a></li>
+                    <li class="nav-list__item"><a href="#experience" class="nav-list__link">Досвід роботи</a></li>
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link">Сертифікати</a></li>
+                    <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Контакти</a></li>
                 </ul>
             </div>
         </div>
@@ -30,55 +31,96 @@
     <header class="header">
         <div class="header__wrapper">
             <h1 class="header__title">
-                <strong>Hi, my name is <em>Bohdan</em></strong><br>
-                a frontend developer
+                <strong>Привіт, моє ім'я <em>Лідія</em></strong><br>
+                я фахівць з реєстрації лікарських засобів
             </h1>
             <div class="header__text">
-                <p>with passion for learning and creating.</p>
+                <p>з пристрастю до навчання та творчості.</p>
             </div>
-            <a href="#!" class="btn">Download CV</a>
+            <a href="#!" class="btn">Завантажити CV</a>
         </div>
     </header>
 
-    <main class="section">
+    <section class="section">
         <div class="container">
-            <h2 class="title-1">Projects</h2>
-            <ul class="projects">
-                <li class="project">
-                    <a href="./project-page.html">
-                        <img src="./img/projects/01.jpg" alt="Project img" class="project__img">
-                        <h3 class="project__title">Gaming streaming portal</h3>
-                    </a>
-                </li>
-                <li class="project">
-                    <a href="./project-page.html">
-                        <img src="./img/projects/02.jpg" alt="Project img" class="project__img">
-                        <h3 class="project__title">Video service</h3>
-                    </a>
-                </li>
-                <li class="project">
-                    <a href="./project-page.html">
-                        <img src="./img/projects/03.jpg" alt="Project img" class="project__img">
-                        <h3 class="project__title">Video portal</h3>
-                    </a>
-                </li>
+            <h2 class="title-1" id="education">Освіта</h2>
+            <p>National university of life and environmental sciences НУБіП (Master)</p>
+            <time>2014 - 2022</time>
+            <p>Управління якістю, сертифікація та стандартизація</p>
+        </div>
+    </section>
 
-                <li class="project">
-                    <img src="./img/projects/04.jpg" alt="Project img" class="project__img">
-                    <h3 class="project__title">Dating app</h3>
+    <section class="section">
+        <div class="container">
+            <h2 class="title-1" id="experience">Досвід роботи</h2>
+            <ul>
+                <li>
+                    <div class="work">
+                        <img src="./img/logo/dr-reddy-s.svg" alt="dr-reddy-s logo" width="150">
+                        <p>Фахівець з реєстрації лікарських засобів</p>
+                        <time>10/2021 - тепер. час</time>
+                    </div>
+                    <p>Підготовка пакета документів для подачі заявки та реєстраційного досьє на
+                        лікарські засоби (відповідно вимог чинного законодавства стосовно
+                        процедури реєстрації/перереєстрації/внесення змін до реєстраційних
+                        документів регуляторних і регламентуючих органів і організацій).
+                        Підготовка відповідей на запити регуляторних і регламентуючих органів.
+                        Оформленя реєстраційнійних досьє в уповноважені регуляторні органи та
+                        супроводжувати процес реєстрації, перереєстрації та внесення змін.
+                        Ведення обліку строків перереєстрації лікарських засобів. Відслідкування
+                        змін та тенденцій регуляторних вимог. Узгодження та внесення змін
+                        дизайну упаковки та інструкції для лікарських засобів.</p>
                 </li>
-                <li class="project">
-                    <img src="./img/projects/05.jpg" alt="Project img" class="project__img">
-                    <h3 class="project__title">Landing</h3>
+                <li>
+                    <div class="work">
+                        <img src="./img/logo/gsk.svg" alt="gsk logo" width="150">
+                        <p>Фахівець з реєстрації лікарських засобів</p>
+                        <time>10/2020 - 10/2021</time>
+                    </div>
+                    <p>Аналіз супровідних документів щодо якості, розробка вимог до безпеки;
+                        Перевірка відповідностей інформації на маркування в рамках вимог
+                        українського законодавства. Організація випробувань артикулів на
+                        відповідність вимогам законодавства, аналіз результатів випробувань;
+                        Комунікація з постачальниками з питань якості та лабараторіями.
+                        Оформлення пакету документів на отримання висновків СЕС. Звітність
+                        зарезультатами роботи</p>
                 </li>
-                <li class="project">
-                    <img src="./img/projects/06.jpg" alt="Project img" class="project__img">
-                    <h3 class="project__title">Gaming community</h3>
+                <li>
+                    <div class="work">
+                        <img src="./img/logo/metro.svg" alt="gsk logo" width="150">
+                        <p>Фахівець з якості імпорту</p>
+                        <time>12/2019 - 07/2020</time>
+                    </div>
+                    <p>Аналіз супровідних документів щодо якості, розробка вимог до безпеки;
+                        Перевірка відповідностей інформації на маркування в рамках вимог
+                        українського законодавства. Організація випробувань артикулів на
+                        відповідність вимогам законодавства, аналіз результатів випробувань;
+                        Комунікація з постачальниками з питань якості та лабараторіями.
+                        Оформлення пакету документів на отримання висновків СЕС. Звітність
+                        зарезультатами роботи</p>
                 </li>
+                <li>
+                    <div class="work">
+                        <p><b>Dr. Reddys</b></p>
+                        <p>Фахівець з реєстрації лікарських засобів</p>
+                        <time>10/2021 - тепер. час</time>
+                    </div>
+                    <p>Підготовка пакета документів для подачі заявки та реєстраційного досьє на
+                        лікарські засоби (відповідно вимог чинного законодавства стосовно
+                        процедури реєстрації/перереєстрації/внесення змін до реєстраційних
+                        документів регуляторних і регламентуючих органів і організацій).
+                        Підготовка відповідей на запити регуляторних і регламентуючих органів.
+                        Оформленя реєстраційнійних досьє в уповноважені регуляторні органи та
+                        супроводжувати процес реєстрації, перереєстрації та внесення змін.
+                        Ведення обліку строків перереєстрації лікарських засобів. Відслідкування
+                        змін та тенденцій регуляторних вимог. Узгодження та внесення змін
+                        дизайну упаковки та інструкції для лікарських засобів.</p>
+                </li>
+                
 
             </ul>
         </div>
-    </main>
+    </section>
 
     <footer class="footer">
         <div class="container">
